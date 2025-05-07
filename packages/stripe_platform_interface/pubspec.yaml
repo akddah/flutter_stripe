@@ -14,7 +14,10 @@ dependencies:
   freezed_annotation: ^2.4.1
   json_annotation: ^4.8.1
   meta: ^1.10.0
-  plugin_platform_interface: ^2.1.7
+  plugin_platform_interface:
+    git:
+      url: https://github.com/akddah/flutter_stripe.git
+      path: packages/stripe_platform_interface
 
 dev_dependencies:
   build_runner: ^2.3.3
